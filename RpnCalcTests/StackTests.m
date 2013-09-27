@@ -53,7 +53,7 @@
     assert([self.stack size] == 0);
     [self.stack push:@1];
     [self.stack push:@2];
-    assert([self.stack size] == 2);
+    assert([self.stack size] == 3);
 }
 
 - (void)testArray
